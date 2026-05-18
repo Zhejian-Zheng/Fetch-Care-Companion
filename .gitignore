@@ -8,6 +8,7 @@ build
 .vercel
 .expo
 mobile/.expo
+mobile/dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
