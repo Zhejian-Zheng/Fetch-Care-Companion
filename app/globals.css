@@ -9,6 +9,11 @@
 
 * {
   box-sizing: border-box;
+  min-width: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 body {
@@ -59,13 +64,6 @@ button {
   }
 }
 
-.grid-paper {
-  background-image:
-    linear-gradient(rgba(21, 34, 56, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(21, 34, 56, 0.05) 1px, transparent 1px);
-  background-size: 28px 28px;
-}
-
 .shimmer {
   position: relative;
   overflow: hidden;
@@ -93,19 +91,10 @@ button {
   animation: pulseLine 1.2s ease-in-out infinite;
 }
 
-.app-phone-frame {
-  width: min(100%, calc(100vw - 32px));
-  max-width: 460px;
-}
-
-.app-phone-screen {
-  width: 100%;
-  max-width: 430px;
-}
-
 @media (max-width: 640px) {
-  .app-phone-frame {
-    width: calc(100vw - 48px);
-    max-width: calc(100vw - 48px);
+  .page-shell {
+    max-width: 390px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
