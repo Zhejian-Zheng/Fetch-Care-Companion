@@ -18,14 +18,25 @@ Pet insurance gets stressful at the exact moment a pet parent is already worried
 
 ## What is built
 
+- React Native / Expo mobile app in `mobile/`
+- Next.js web prototype in the repo root
 - Mobile-first product surface inspired by Fetch's "one pink app" positioning
 - Interactive pet and visit-type selection
-- Mock full-stack estimate parser using a Next.js API route
+- Mock estimate parser on web and native
 - Loading, empty, and error states
 - Coverage summary, line-item review, care queue, policy clarity, and claim timeline
 - Responsive desktop shell for walkthroughs and recruiter review
 
 ## Stack
+
+Mobile:
+
+- React Native
+- Expo
+- TypeScript
+- Expo vector icons
+
+Web:
 
 - Next.js App Router
 - React
@@ -33,7 +44,23 @@ Pet insurance gets stressful at the exact moment a pet parent is already worried
 - Tailwind CSS
 - Lucide React icons
 
-## Run locally
+## Run the React Native app
+
+```bash
+cd mobile
+npm install
+npm run start
+```
+
+Open with Expo Go, iOS Simulator, Android Emulator, or Expo web.
+
+From the repo root you can also run:
+
+```bash
+npm run mobile
+```
+
+## Run the web prototype
 
 ```bash
 npm install

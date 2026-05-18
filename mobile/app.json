@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Fetch Care Companion",
+    "slug": "fetch-care-companion",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ff5fa2"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
